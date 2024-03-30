@@ -25,14 +25,23 @@ section{
 .section-container{
     width: 90%;
     height: 85%;
-    background-color: #e8cd1e;
+    background-color: rgb(253, 216, 31);
     border: 8px solid #e8a51e;
     opacity: 95%;
     border-radius: 15px;
     padding: 15px;
     display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: flex-start;
+}
+
+.home-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
 }
 
 .navbar{
@@ -52,7 +61,7 @@ section{
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    color: #ffdd00;
+    color: #ffe749;
 }
 .cheese-icon{
     font-size: 24px;
@@ -64,7 +73,7 @@ section{
 
 .links{
     padding: 5px;
-    width: 350px;
+    width: 380px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -76,6 +85,7 @@ section{
     font-size: 20px;
     padding: 10px 15px 10px 15px;
     border-radius: 100vmax;
+    letter-spacing: 1.5px;
 }
 .links a:hover{
     background-color: #ffdd00;
@@ -113,4 +123,60 @@ section{
 }
 .search .search-icon{
     font-size: 24px;
+    color: #e0990b;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: -16%;
+    width: 88%;
+    background-color: #e8a51e;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 5px 10px 2px 0 rgba(0, 0, 0, 0.3);
+}
+.quote-icon-left{
+    position: relative;
+    top: 20px;
+    left: -40%;
+    font-size: 80px;
+    color: rgb(171, 91, 1);
+    z-index: 4;
+}
+.quote-icon-right{
+    position: relative;
+    top: -60px;
+    right: -40%;
+    font-size: 80px;
+    color: rgb(171, 91, 1);
+    z-index: 4;
+}
+.intro .introtext{
+    position: relative;
+}
+.intro .introhead{
+    color: #ffe749;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-bottom: 3px solid #ffdd00;
+}
+.intro .intropara{
+    color: #ffdd00;
+    padding-top: 40px;
+    font-size: 18px;
+}
+
+.intro .introimg{
+    position: relative;
+    right: 30px;
+    top: 5px;
+}
+.introimg img{
+    width: 350px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 4px 3px rgba(0, 0, 0, 0.3);
 }
