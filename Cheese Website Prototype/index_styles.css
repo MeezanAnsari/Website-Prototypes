@@ -25,7 +25,7 @@ section{
 .section-container{
     width: 90%;
     height: 85%;
-    background-color: rgb(253, 216, 31);
+    background-color: rgba(253, 216, 31, 1);
     border: 8px solid #e8a51e;
     opacity: 95%;
     border-radius: 15px;
@@ -61,7 +61,8 @@ section{
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    color: #ffe749;
+    color: #ffff00;
+    font-weight: 700;
 }
 .cheese-icon{
     font-size: 24px;
@@ -80,7 +81,7 @@ section{
 }
 .links a{
     text-decoration: none;
-    color: #ffdd00;
+    color: #ffff00;
     font-weight: 700;
     font-size: 20px;
     padding: 10px 15px 10px 15px;
@@ -89,7 +90,7 @@ section{
 }
 .links a:hover{
     background-color: #ffdd00;
-    color: #e8a51e;
+    color: #ffae00;
     box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3);
     transition: ease-in 0.2s;
 }
@@ -140,18 +141,18 @@ section{
 }
 .quote-icon-left{
     position: relative;
-    top: 20px;
+    top: 10px;
     left: -40%;
     font-size: 80px;
-    color: rgb(171, 91, 1);
-    z-index: 4;
+    color: rgb(200, 107, 1);
+    z-index: 2;
 }
 .quote-icon-right{
     position: relative;
-    top: -60px;
+    top: -70px;
     right: -40%;
     font-size: 80px;
-    color: rgb(171, 91, 1);
+    color: rgb(200, 107, 1);
     z-index: 4;
 }
 .intro .introtext{
