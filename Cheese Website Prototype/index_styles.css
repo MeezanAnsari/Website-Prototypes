@@ -320,6 +320,7 @@ section{
     background: transparent;
     border: 5px solid #ffdd00;
     color: #1f1300;
+    cursor: pointer;
 }
 .subsfoot .inputbox .label{
     position: absolute;
