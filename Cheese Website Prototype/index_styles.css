@@ -50,7 +50,7 @@ section{
     align-items: center;
     justify-content: space-between;
     padding: 15px;
-    background-color: #e8a51e;
+    background-color: #e0990b;
     border-radius: 8px;
     box-shadow: 3px 3px 4px 2px rgba(0, 0, 0, 0.3);
 }
@@ -90,7 +90,7 @@ section{
 }
 .links a:hover{
     background-color: #ffdd00;
-    color: #ffae00;
+    color: #ee9300;
     box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3);
     transition: ease-in 0.2s;
 }
@@ -134,7 +134,7 @@ section{
     position: relative;
     top: -16%;
     width: 88%;
-    background-color: #e8a51e;
+    background-color: #e0990b;
     padding: 40px;
     border-radius: 8px;
     box-shadow: 5px 10px 2px 0 rgba(0, 0, 0, 0.3);
@@ -181,3 +181,66 @@ section{
     border-radius: 8px;
     box-shadow: 3px 3px 4px 3px rgba(0, 0, 0, 0.3);
 }
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-container .aboutheader{
+    position: relative;
+    top: -10px;
+    font-family: 60px;
+    font-style: bold;
+    color: #cb7d00;
+}
+.about-container .aboutfooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.aboutcard{
+    display: block;
+    background-color: #e0990b;
+    padding: 10px;
+    border-radius: 12px;
+    width: 360px;
+    border: 8px solid #ffbd2e;  
+    margin-left: 30px;
+    margin-right: 30px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 3px 4px 2px rgba(0, 0, 0, 0.3);
+}
+.aboutcard .abouticon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    border-bottom: 3px solid #ffdd00;
+}
+.aboutcard .abouticon .icon{
+    font-size: 60px;
+    padding: 30px;
+    color: #1f1300;
+}
+.aboutcard .abouttext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutcard .abouttext .abouttexthead{
+    font-size: 20px;
+    padding: 30px;
+    color: #ffe749;
+    border-bottom: 3px solid #ffdd00;
+}
+.aboutcard .abouttext .abouttextpara{
+    text-align: center;
+    padding-top: 30px;
+    color: #ffdd00;
+}
+
